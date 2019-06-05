@@ -98,17 +98,16 @@
                                Text="WishList" />
                 </StackPanel>
             </Controls:HamburgerButtonInfo>
-            <!--</Controls:HamburgerMenu.PrimaryButtons>-->
 
-            <!--  Personal Info button  -->
-            <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:PersonalInfoPage" 
+            <!--  Contact button  -->
+            <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:ContactDetailsPage" 
                                           AutomationProperties.Name="Jerry"
                                           >
                 <StackPanel Orientation="Horizontal">
                     <SymbolIcon Width="48" Height="48"
-                		Symbol="People" />
+                		Symbol="Contact" />
                     <TextBlock Margin="12,0,0,0" VerticalAlignment="Center"
-                               Text="Personal Info" />
+                               Text="Contacts" />
                 </StackPanel>
             </Controls:HamburgerButtonInfo>
         </Controls:HamburgerMenu.PrimaryButtons>
